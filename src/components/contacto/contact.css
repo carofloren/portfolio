@@ -1,20 +1,24 @@
-
-.contacto-info{
-    text-align: center;
-
+.contacto-info {
+  text-align: center;
 }
-.contacto-info h2{
-    margin: 3rem 0 8rem 0;
+.contacto-info h2 {
+  margin: 3rem 0 8rem 0;
 }
-.contenedor-contacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.contenedor-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 /* .margin{
     margin-bottom: 5rem;
 } */
-.icon{
-    color: white;
-    font-size: 3rem;
+.contenedor-icon {
+  margin-bottom: 5rem;
+}
+.icon {
+  color: white;
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
 }

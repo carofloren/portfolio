@@ -1,34 +1,58 @@
-import React from 'react'
-import "./skills.css"
-import { node,
+import React from 'react';
+import './skills.css';
+import {
+  node,
   redux,
   typescript,
-  postman,
   javascript,
   git,
-  express,
-  html, css,
-react} from '../../assets/skills'
+  html,
+  css,
+  react,
+} from '../../assets/skills';
 export const Skills = () => {
-
+  const info = [
+    {
+      skill: html,
+      texto: 'img_html',
+    },
+    {
+      skill: css,
+      texto: 'img_css',
+    },
+    {
+      skill: javascript,
+      texto: 'img_javascript',
+    },
+    {
+      skill: typescript,
+      texto: 'img_typescript',
+    },
+    {
+      skill: react,
+      texto: 'img_react',
+    },
+    {
+      skill: redux,
+      texto: 'img_redux',
+    },
+    {
+      skill: node,
+      texto: 'img_node',
+    },
+    {
+      skill: git,
+      texto: 'img_git',
+    },
+  ];
   return (
-    <div id="skills" className='center margin skills'>
-      <h2>
-       MIS HABLIDADES:
-      </h2>
+    <div id='skills' className='center margin skills'>
+      <h2>MIS HABLIDADES:</h2>
       <div className='contenedor-skills'>
-        <img src={html} alt='image de html'/>
-        <img src={css} alt='image de css'/>
-        <img src={javascript} alt='image de javascript'/>
-        <img src={typescript} alt='image de typescript'/>
-        <img src={react} alt='image de react'/>
-        <img src={redux} alt='image de redux'/>
-        <img src={node} alt='image de node'/>
-        <img src={git} alt='image de git'/>
-
+        {info.map((el) => (
+          <img src={el.skill} alt={el.texto} />
+        ))}
       </div>
-  
-
-      </div>
-  )
-}
+    </div>
+  );
+};

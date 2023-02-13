@@ -68,38 +68,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
-
 }
-.margin{
-margin: 10rem 0rem;
+.margin {
+  margin: 10rem 0rem;
 }
-.center{
+.center {
   text-align: center;
 }
-body{
-  background-color: #201C35;
-
+body {
+  background-color: #201c35;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 62.5%; /* 1 rem es igual a 10px*/
 }
-*, *:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-body{
-  font-family: 'Poppins';
+body {
+  font-family: "Poppins";
   font-size: 1.6rem;
   line-height: 2; /*interniliado entre parrafoss*/
 }
-h1, h2, h3{
-  font-family: 'Poppins' ;
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
   margin: 0 0 1rem 0;
   color: white;
 }
-
